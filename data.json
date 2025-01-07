@@ -1,0 +1,38 @@
+{
+  "roleDataPermission": [
+    {
+      "menu_code": "booking_menu",
+      "menu_label": "Booking Menu",
+      "create": true,
+      "delete": true,
+      "edit": true,
+      "view": true,
+      "subMenu": [
+        {
+          "menu_code": "transaction",
+          "menu_label": "Transaction",
+          "create": true,
+          "delete": true,
+          "edit": true,
+          "view": true
+        },
+        {
+          "menu_code": "end_strip_script",
+          "menu_label": "End Strip Script",
+          "create": true,
+          "delete": true,
+          "edit": true,
+          "view": true
+        }
+      ]
+    },
+    {
+      "menu_code": "admin_menu",
+      "menu_label": "Admin Menu",
+      "create": true,
+      "delete": true,
+      "edit": true,
+      "view": true
+    }
+  ]
+}
